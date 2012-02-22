@@ -2,14 +2,14 @@
 /**
  * @package TagGator
  * @author PsMan
- * @version 1.2
+ * @version 1.21
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator is an auto tagging plugin, provide the plugin with some keywords, it will convert these keywords to tags and automatically adds this tag to all posts containing these keywords. 
 Author: PsMan
-Version: 1.2
+Version: 1.21
 Author URI: http://angrybyte.com
 */
 
@@ -207,7 +207,7 @@ VALUES (
     } else {
         $chkd2 = '';
     }
-    $oldtags = get_option('taggatortags');
+    $oldtags =stripslashes(get_option('taggatortags')) ;
     echo <<< EOST
     <script type="text/javascript" src="{$plugurl}js/jquery.js"></script>
 <script type="text/javascript" src="{$plugurl}js/thickbox.js"></script>
