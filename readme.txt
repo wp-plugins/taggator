@@ -6,7 +6,7 @@ Requires at least: 2.3-alpha
 Tested up to: 3.0.1
 Stable tag: 1.5
 
-TagGator is an auto tagging plugin, provide the plugin with some keywords, it will convert these keywords to tags and automatically adds this tag to all posts containing these keywords.
+Automatically add tags to your posts! Tag your posts based on their contents automatically.
 
 == Description ==
 
