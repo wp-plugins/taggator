@@ -20,7 +20,7 @@ A Pro Version of TagGator is now available with the following features:
 <li><b>Set & Forget:</b> You only need to configure TagGator once. once done, you won't have to worry about tags anymore</li>
 </ul>
 
-<a href= "http://codecanyon.net/item/taggator-pro-wordpress-auto-tagging-plugin/1725033?ref=AngryByte">Click here to learn more & get about TagGator Pro</a>
+<a href= "http://codecanyon.net/item/taggator-pro-wordpress-auto-tagging-plugin/1725033?ref=AngryByte">Click here to learn more & get TagGator Pro</a>
 == Installation ==
 
 1. Upload `taggator.php` to the `/wp-content/plugins/` directory
