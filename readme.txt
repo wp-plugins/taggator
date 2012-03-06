@@ -10,9 +10,17 @@ Automatically add tags to your posts! Tag your posts based on their contents aut
 
 == Description ==
 
-TagGator is an auto tagging plugin, provide the plugin with some keywords, it will convert these keywords to tags and automatically adds this tag to all posts containing these keywords. v 0.3 Fixed some bugs, & made compatible with wordpress 3 <br /> v 0.4 Based on the recommendations of "Robert" on angrybyte.com Now we are able to save tags you used once for using over on over, also Casesensetivity is now optional. <br />
-V 0.5 Auto tagging for new posts, small modifications here and there..<br />V 0.6 Now you are able to match whole words only!! , Fixed a bug where the first word in a post is not detected.<br /> V 0.7 TagGator now searchs for tags in the titles too, you are now able to see the number of tags applied when manually tagging V 1.1 Wordpress now updates the tags count automatically, fixed a bug when case sensetivity is enabled.
+TagGator is an auto tagging plugin, Just write enter a few keywords representing your contents, TagGator will automatically scan your posts for these keywords, and tag them according to the results.<br />
 
+A Pro Version of TagGator is now available with the following features:
+<ul>
+<li><b>Auto Tagging:</b> Your posts are tagged automatically when you create posts.</li>
+<li><b>Autoblog friendly:</b>Taggator works with most autoblogging solutions, tags are created automatically when the posts are generated.</li>
+<li><b>Keywords To tags:</b> Just write different keywords that represent you tags, Taggator will create the tags, and assign them.</li>
+<li><b>Set & Forget:</b> You only need to configure TagGator once. once done, you won't have to worry about tags anymore</li>
+</ul>
+
+<a href= "http://codecanyon.net/item/taggator-pro-wordpress-auto-tagging-plugin/1725033?ref=AngryByte">Click here to learn more & get about TagGator Pro</a>
 == Installation ==
 
 1. Upload `taggator.php` to the `/wp-content/plugins/` directory
