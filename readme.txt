@@ -6,7 +6,8 @@ Requires at least: 2.3-alpha
 Tested up to: 3.3.1
 Stable tag: 1.5
 
-Automatically add tags to your posts! Tag your posts based on their contents automatically.
+TagGator Automatically tag to your posts so you dont have to! Tag your posts based on their contents automatically.
+
 
 == Description ==
 
