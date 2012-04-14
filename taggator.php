@@ -3,14 +3,14 @@
 /**
  * @package TagGator
  * @author PsMan
- * @version 1.33
+ * @version 1.34
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
 Author: PsMan
-Version: 1.33
+Version: 1.34
 Author URI: http://angrybyte.com
 */
 
@@ -100,17 +100,17 @@ $atag=trim($atag);
 
                         $qry = "select `term_id` from  {$pfx}terms where name = %s limit 1;";
                         //echo $wpdb->prepare($qry, $atag);
-                        $tagid = $wpdb->get_var($wpdb->prepare($qry, $atag));
+                        $ttd = $wpdb->get_var($wpdb->prepare($qry, $atag));
                     } else
                     {
-                        $tagid = $already;
+                        $ttd = $already;
 
                     }
 
                     $qry = "SELECT term_taxonomy_id from {$pfx}term_taxonomy where term_id= %d limit 1;";
 
 
-                    $taxid = $wpdb->get_var($wpdb->prepare($qry, $tagid));
+                    $taxid = $wpdb->get_var($wpdb->prepare($qry, $ttd));
 
 
                     $wpdb->query($wpdb->prepare("INSERT INTO `{$pfx}term_relationships` (
