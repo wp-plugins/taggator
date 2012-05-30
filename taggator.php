@@ -3,19 +3,18 @@
 /**
  * @package TagGator
  * @author PsMan
- * @version 1.35
+ * @version 1.37
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
 Author: PsMan
-Version: 1.35
+Version: 1.37
 Author URI: http://angrybyte.com
 */
 
 add_action('admin_menu', 'taggatorfreemenu');
-//old desc TagGator is an auto tagging plugin, provide the plugin with some keywords, it will convert these keywords to tags and automatically adds this tag to all posts containing these keywords.
 add_option("taggatorcs", '1', 'Case sensitivity for taggator?', 'yes');
 add_option("taggatormhw", '1', 'Match whole words?', 'yes');
 add_option("taggatortags", '', 'Taggator tags', 'yes');
@@ -99,7 +98,7 @@ $atag=trim($atag);
 
 
                         $qry = "select `term_id` from  {$pfx}terms where name = %s limit 1;";
-                        //echo $wpdb->prepare($qry, $atag);
+                       
                         $ttd = $wpdb->get_var($wpdb->prepare($qry, $atag));
                     } else
                     {
