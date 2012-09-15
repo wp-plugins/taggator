@@ -3,14 +3,14 @@
 /**
  * @package TagGator
  * @author PsMan
- * @version 1.45
+ * @version 1.46
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
 Author: PsMan
-Version: 1.45
+Version: 1.46
 Author URI: http://angrybyte.com
 */
 
@@ -156,6 +156,7 @@ EOST;
 <li><b>Autoblog friendly:</b> Taggator works with most autoblogging solutions, tags are created automatically when the posts are generated.</li>
 <li><b>Multiple keywords for one Tag:</b> Pro version allows you to set multiple keywords for a single Tag!.</li>
 <li><b>Set & Forget:</b> You only need to configure TagGator once. once done, you won’t have to worry about tags anymore</li>
+<li><b>Client Side:</b> The client side tagging option provides the option to tag all posts without putting much load on your server.</li>
 
 </ul><br /><a href = 'http://codecanyon.net/item/taggator-pro-wordpress-auto-tagging-plugin/1725033?ref=AngryByte' >Buy TagGator Pro Now, and never worry about tagging a post ever again</a>");
     echo "</td><td valign='top'>";
