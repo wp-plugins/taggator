@@ -3,14 +3,14 @@
 /**
  * @package TagGator
  * @author PsMan
- * @version 1.46
+ * @version 1.47
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
 Author: PsMan
-Version: 1.46
+Version: 1.47
 Author URI: http://angrybyte.com
 */
 
