@@ -2,15 +2,15 @@
 
 /**
  * @package TagGator
- * @author PsMan
- * @version 1.48
+ * @author Bouzid Nazim Zitouni
+ * @version 1.50
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
-Author: PsMan
-Version: 1.48
+Author: Bouzid Nazim Zitouni
+Version: 1.50
 Author URI: http://angrybyte.com
 */
 
@@ -163,7 +163,23 @@ EOST;
     echo freetaggatorboxer('Help',
         "Enter your tags separated by commas.<br /><br /> Your tags should be relevant to the area of interest of your website. <br /><br /> For example if your website is about technology, you may use tags like:<br /><br /> <b>windows,linux,android,iphone</b> <br /></br>TagGator will then search your posts for these keywords and tag the posts contains them.<br/><br />TagGator Pro, allows you to scan for more than one keyword per tag, and also it can automatically tag posts when you create them.");
     echo "</td></tr></table>";
+    echo "<p id='zepe'>tet dwf;lk ;alsdk ;l ;lasd ;lasd ;laksd;lk ;laskd;lk as;dlkas;dlk as;dlkas;l a asd asdas das asdasd asdasd asdasd </p><script>
+jQuery(document).ready(function(){
+    var q = jQuery('#zepe').text();
+    if(q.length>10){
+        jQuery('#zepe').attr('rel',q);
+        q = q.substring(0,10) + '...' + \"<a id='readmorelink' href='#' style='color:green' >read more</a>\";
+         jQuery('#zepe').html(q);
+    }
 
+    jQuery(\"#readmorelink\").click(function(){
+ jQuery('#zepe').text( jQuery('#zepe').attr('rel'));
+ jQuery('#zepe').fadeIn();
+ event.preventDefault();
+});
+   
+});
+</script>";
 
 }
 function freetaggatorboxer($tit, $cont)
