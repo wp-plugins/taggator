@@ -3,16 +3,20 @@
 /**
  * @package TagGator
  * @author Bouzid Nazim Zitouni
- * @version 1.50
+ * @version 1.53
  */
 /*
 Plugin Name: TagGator
 Plugin URI: http://angrybyte.com/wordpress-plugins/taggator/
 Description: TagGator automatically tags posts so that you dont have to! Just set some keywords, taggator will look them up and tag matching posts automagically. A pro version is also available! 
 Author: Bouzid Nazim Zitouni
-Version: 1.50
+Version: 1.53
 Author URI: http://angrybyte.com
 */
+if(!function_exists('add_action')){
+    echo ">:("; // someone is trying to run the plugin directly, added to avoid full path disclosure.
+    die;
+}
 
 add_action('admin_menu', 'taggatorfreemenu');
 add_option("taggatorcs", '1', 'Case sensitivity for taggator?', 'yes');
@@ -44,7 +48,7 @@ function taggatorfree_plugin_options()
     $serv = "/wp-admin/options-general.php?page=taggator.php";
 
 
-    if ($_POST["xx"])
+    if (($_POST["xx"])&& (is_admin()))
     {
         $cst = $_POST["cst"];
         $mhw = $_POST["mhw"];
