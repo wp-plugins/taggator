@@ -3,7 +3,7 @@ Contributors: PsMan, Bouzid Nazim Zitouni
 Donate link:http://angrybyte.com/donate
 Tags: tags, tag, automatic, plugin, seo, tagger, auto, scan, keywords, keyword, generator, tagging, viral, autoblog, internal, linking
 Requires at least: 3.0
-Tested up to: 3.5.1
+Tested up to: 3.6
 Stable tag: 1.5
 
 TagGator Automatically tag to your posts so you dont have to! Tag your posts based on their contents automatically.
